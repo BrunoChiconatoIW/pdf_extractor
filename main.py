@@ -10,8 +10,6 @@ import camelot  # type: ignore
 import matplotlib  # type: ignore
 import matplotlib.pyplot as plt  # type: ignore
 import pandas as pd  # type: ignore
-import sqlalchemy  # type: ignore
-from dotenv import load_dotenv
 
 from funcs.pdf_extractor import (
     pdf_to_df,
